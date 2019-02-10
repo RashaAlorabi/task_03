@@ -8,16 +8,16 @@ def restaurant_list(request):
     context = { 
     	'my_list': [
     		{
-    			'restaurant_name':'TacoHut',
-    			'food_type':'pasta',
+    			'restaurant_name':'takohut',
+    			'food_type':'italian food',
     	},
     		{
-    			'restaurant_name':'ShawarmaPlus',
-    			'food_type':'Checken',
+    			'restaurant_name':'shawarma plus',
+    			'food_type':'Arabic food',
     	},
     		{
-    			'restaurant_name':'DankenDounts',
-    			'food_type':'Desert',
+    			'restaurant_name':'Anatolia',
+    			'food_type':'turkish food',
     	},
     	],
 
@@ -30,8 +30,8 @@ def restaurant_detail(request):
 
     context = {
     	'my_object': {
-    	'restaurant_name':'DankenDounts',
-    	'food_type': 'Deserts'
+    	'restaurant_name':'takohut',
+    	'food_type': 'italian food',
     	}
 
     }
